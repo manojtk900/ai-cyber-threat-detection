@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+
+# Dataset (too large)
+dataset/
+
+# Model files
+*.pkl
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
