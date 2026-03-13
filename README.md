@@ -27,17 +27,6 @@ This project analyzes network traffic data and predicts potential cyber threats 
 
 ---
 
-## 📊 System Architecture
-
-```mermaid
-flowchart LR
-
-A[Network Traffic Dataset] --> B[Data Preprocessing]
-B --> C[Feature Engineering]
-C --> D[Random Forest Model]
-D --> E[Threat Prediction]
-E --> F[Streamlit Dashboard]
-F --> G[Threat Visualization]
 
 
 ## Setup
@@ -65,4 +54,37 @@ This project uses the CICIDS2017 dataset.
 
 Download:
 https://www.unb.ca/cic/datasets/ids-2017.html
+
+##📂 Project Structure
+ai-cyber-threat-detection
+│
+├── dataset
+│   ├── Friday-WorkingHours-Afternoon-DDoS.pcap_ISCX.csv
+│
+├── model
+│   ├── train_model.py
+│   └── model.pkl
+│
+├── utils
+│   └── preprocess.py
+│
+├── app
+│   └── dashboard.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+
+
+##📥 Dataset
+This project uses the CICIDS2017 Intrusion Detection Dataset.
+
+Download it from:
+https://www.unb.ca/cic/datasets/ids-2017.html
+
+
+
+
+
 
