@@ -17,3 +17,9 @@ python model/train_model.py
 
 6. Run dashboard
 streamlit run app/dashboard.py
+
+## Dataset
+This project uses the CICIDS2017 dataset.
+
+Download:
+https://www.unb.ca/cic/datasets/ids-2017.html
